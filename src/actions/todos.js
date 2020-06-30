@@ -12,7 +12,7 @@ function addTodo(todo) {
   };
 }
 
-function removeTodo(todo) {
+function removeTodo(id) {
   return {
     type: REMOVE_TODO,
     id,
